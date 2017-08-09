@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=/run/media/wagner/96fea5f1-d297-4f63-a035-abf6511467be/wagnerdocri@gmail.com2/envs/env-dev/mvnprojects/reservadeespaco/InstalarManualmenteEstesJars/JTimeChooser_0.1.0.jar -DgroupId=lu.tudor.santec  -DartifactId=jtimechooser -Dversion=0.1.0 -Dpackaging=jar -X

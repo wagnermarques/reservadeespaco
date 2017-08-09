@@ -1,0 +1,4 @@
+*/**/*.jar
+target/*
+nbactions.xml
+/target/
