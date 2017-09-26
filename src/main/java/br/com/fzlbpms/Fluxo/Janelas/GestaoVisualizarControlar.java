@@ -693,7 +693,7 @@ public class GestaoVisualizarControlar extends javax.swing.JDialog {
         try {
             int continua = 0;
             boolean isEspacoReservado = false;
-            int indiceLocal = 0;
+            int indiceLocal = indice;
             if (alterarMaisDeUmRegistro == 0) {
                 if (jrbAceitar.isSelected()) {
                     indiceLocal = indice;
