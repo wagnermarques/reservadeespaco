@@ -4,7 +4,6 @@
  */
 package br.com.fzlbpms.Fluxo.BancoDeDados;
 
-import br.com.fzlbpms.Fluxo.Logicas.SolicitacaoEspaco;
 import java.sql.*;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -15,6 +14,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import br.com.fzlbpms.Fluxo.Logicas.SolicitacaoEspaco;
 
 public class OperacaoBD {
 

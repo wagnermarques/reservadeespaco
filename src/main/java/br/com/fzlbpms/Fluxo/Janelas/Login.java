@@ -150,7 +150,7 @@ public class Login extends javax.swing.JDialog {
                         String solicitante = bd.getNomeSolicitante(IDLogin);
                         Solicitacoes solicitacaoWindow = new Solicitacoes(null, true, solicitante);
                         solicitacaoWindow.setVisible(true);
-                    } else if ((tipo == 1) && (IDLogin == 73)) {
+                    } else if ((tipo == 1) && (IDLogin == 73 || IDLogin == 221)) {
                         GestaoMain gestaoJanela = new GestaoMain(null, true);
                         gestaoJanela.setVisible(true);
                     } else if (tipo == 2) {
