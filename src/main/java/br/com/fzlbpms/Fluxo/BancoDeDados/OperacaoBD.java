@@ -190,6 +190,10 @@ public class OperacaoBD {
         int ultimoDia = calendar.getMaximum(Calendar.DAY_OF_MONTH);
         stringDataPrimeiroDiaConsulta = ultimoDia + "/" + mes + "/" + ano;
         Date ultimoDiaMes = df.parse(stringDataPrimeiroDiaConsulta);
+        java.util.Calendar c = Calendar.getInstance();
+        c.setTime(ultimoDiaMes);
+        c.add(Calendar.YEAR, 1);
+        ultimoDiaMes = c.getTime();
         List<SolicitacaoEspaco> solicitacoes = new ArrayList<SolicitacaoEspaco>();
         conexao = Conexao.getConexaoGeral();
         String sql;
